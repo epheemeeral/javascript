@@ -3,15 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sudoku Game</title>
+  <title>Редактор расписания занятий</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sudoku</h1>
-  <div class="sudoku-board" id="sudoku-board"></div>
-  <div class="controls">
-    <button id="check-solution">Check Solution</button>
-    <button id="reset">Reset</button>
+  <h1>Редактор расписания занятий</h1>
+  <div class="schedule-container">
+    <table id="schedule-table">
+      <thead>
+        <tr>
+          <th>День недели</th>
+          <th>Предмет</th>
+          <th>Время</th>
+          <th>Действия</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Начальное расписание -->
+        <tr>
+          <td>Понедельник</td>
+          <td>Математика</td>
+          <td>9:00 - 10:30</td>
+          <td>
+            <button class="delete">Удалить</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Среда</td>
+          <td>Физика</td>
+          <td>11:00 - 12:30</td>
+          <td>
+            <button class="delete">Удалить</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="form-container">
+      <h2>Добавить предмет</h2>
+      <label for="day">День недели:</label>
+      <select id="day">
+        <option value="Понедельник">Понедельник</option>
+        <option value="Вторник">Вторник</option>
+        <option value="Среда">Среда</option>
+        <option value="Четверг">Четверг</option>
+        <option value="Пятница">Пятница</option>
+      </select>
+
+      <label for="subject">Предмет:</label>
+      <input type="text" id="subject" placeholder="Название предмета">
+
+      <label for="time">Время:</label>
+      <input type="text" id="time" placeholder="Например, 14:00 - 15:30">
+
+      <button class="add" id="add-item">Добавить</button>
+    </div>
   </div>
 
   <script src="script.js"></script>

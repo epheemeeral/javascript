@@ -1,61 +1,89 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
   }
   
   h1 {
-    margin-bottom: 20px;
-  }
-  
-  .sudoku-board {
-    display: grid;
-    grid-template-columns: repeat(9, 40px);
-    gap: 1px;
-    background-color: #000;
-  }
-  
-  .cell {
-    width: 40px;
-    height: 40px;
     text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    cursor: pointer;
+    color: #444;
   }
   
-  .cell:disabled {
-    background-color: #ddd;
-    cursor: not-allowed;
+  .schedule-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
   }
   
-  .cell.invalid {
-    background-color: #ffcccc;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
   }
   
-  .controls {
-    margin-top: 20px;
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
   }
   
   button {
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 14px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #0077cc;
-    color: white;
-    margin: 0 5px;
   }
   
-  button:hover {
-    background-color: #005fa3;
+  button.add {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.add:hover {
+    background-color: #218838;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .form-container input, .form-container select {
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
   }
   
