@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sudoku Game</title>
+  <title>Редактор Комиксов</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sudoku</h1>
-  <div class="sudoku-board" id="sudoku-board"></div>
-  <div class="controls">
-    <button id="check-solution">Check Solution</button>
-    <button id="reset">Reset</button>
+  <div class="toolbar">
+    <label for="character-upload">Добавить персонажа:</label>
+    <input type="file" id="character-upload" accept="image/*">
+    <button id="add-text-bubble">Добавить текстовый пузырь</button>
+    <button id="clear-canvas">Очистить всё</button>
   </div>
+
+  <div id="canvas"></div>
 
   <script src="script.js"></script>
 </body>

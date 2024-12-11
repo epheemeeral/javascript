@@ -1,61 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  
+  .toolbar {
+    display: flex;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-  }
-  
-  .sudoku-board {
-    display: grid;
-    grid-template-columns: repeat(9, 40px);
-    gap: 1px;
-    background-color: #000;
-  }
-  
-  .cell {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    cursor: pointer;
-  }
-  
-  .cell:disabled {
-    background-color: #ddd;
-    cursor: not-allowed;
-  }
-  
-  .cell.invalid {
-    background-color: #ffcccc;
-  }
-  
-  .controls {
-    margin-top: 20px;
-  }
-  
-  button {
+    align-items: center;
+    background: #4CAF50;
+    color: white;
     padding: 10px 20px;
-    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar button, .toolbar input {
+    margin: 5px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    background-color: #0077cc;
-    color: white;
-    margin: 0 5px;
+    font-size: 16px;
   }
   
-  button:hover {
-    background-color: #005fa3;
+  .toolbar button {
+    background: #ffffff;
+    color: #4CAF50;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .toolbar button:hover {
+    background: #f1f1f1;
+  }
+  
+  .toolbar input {
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  #canvas {
+    margin: 20px auto;
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .draggable {
+    position: absolute;
+    cursor: move;
+  }
+  
+  .text-bubble {
+    padding: 15px;
+    border-radius: 15px;
+    background: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Comic Sans MS', cursive;
+    resize: none;
+  }
+  
+  .resize-handle {
+    width: 12px;
+    height: 12px;
+    background: #4CAF50;
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    cursor: se-resize;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
