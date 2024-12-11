@@ -1,6 +1,6 @@
 # javascript
 
-# Лабараторная работа 2
+# Лабораторная работа 2
 ## примеры 
 - [задание 1](https://github.com/epheemeeral/javascript/blob/main/2.1.js)
 - [задание 2](https://github.com/epheemeeral/javascript/blob/main/2.2.js)
@@ -13,7 +13,7 @@
 - [задание 2](https://github.com/epheemeeral/javascript/blob/main/2.1.2.js)
 - [задание 3](https://github.com/epheemeeral/javascript/blob/main/2.1.3.js)
 
-# Лабараторная работа 3
+# Лабораторная работа 3
 - [задание 1](https://github.com/epheemeeral/javascript/blob/main/3.1.js)
 - [задание 2](https://github.com/epheemeeral/javascript/blob/main/3.2.js)
 - [задание 3](https://github.com/epheemeeral/javascript/blob/main/3.3.js)
