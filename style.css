@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  .quote-widget {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .quote {
+    font-size: 1.2rem;
+    margin: 0 0 20px;
+    color: #333;
+  }
+  .author {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #ddd;
+  }
+  .share-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .share-buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  .telegram { background: #0088cc; }
+  .telegram:hover { background: #0077aa; }
+  .vk { background: #4c75a3; }
+  .vk:hover { background: #3b5d82; }
+  .whatsapp { background: #25d366; }
+  .whatsapp:hover { background: #1ebc57; }
+  
