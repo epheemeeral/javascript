@@ -3,15 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sudoku Game</title>
+  <title>Интерактивный опрос</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sudoku</h1>
-  <div class="sudoku-board" id="sudoku-board"></div>
-  <div class="controls">
-    <button id="check-solution">Check Solution</button>
-    <button id="reset">Reset</button>
+  <h1>Интерактивный опрос</h1>
+  <div class="poll-container">
+    <div class="question-container">
+      <input type="text" id="poll-question" placeholder="Введите вопрос для опроса">
+      <h2 id="display-question">Вопрос: [введите ваш вопрос выше]</h2>
+    </div>
+    <div class="form-container">
+      <input type="text" id="new-option" placeholder="Введите вариант ответа">
+      <button id="add-option">Добавить</button>
+    </div>
+    <div class="poll-options" id="poll-options">
+      <!-- Варианты опроса добавляются динамически -->
+    </div>
+    <div class="results" id="results">
+      <!-- Результаты опроса отображаются здесь -->
+    </div>
   </div>
 
   <script src="script.js"></script>
