@@ -17,3 +17,19 @@
 - [задание 1](https://github.com/epheemeeral/javascript/blob/main/3.1.js)
 - [задание 2](https://github.com/epheemeeral/javascript/blob/main/3.2.js)
 - [задание 3](https://github.com/epheemeeral/javascript/blob/main/3.3.js)
+
+# Лабораторная работа 4
+## задание 1
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l4z1/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l4z1/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l4z1/style.css)
+
+## задание 2
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l4z2/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l4z2/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l4z2/style.css)
+
+## задание 3
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l4z3/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l4z3/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l4z3/style.css)
