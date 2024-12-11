@@ -19,33 +19,33 @@
 - [задание 3](https://github.com/epheemeeral/javascript/blob/main/3.3.js)
 
 # Лабораторная работа 4
-## задание 1
+## задание 1 (виджет цитаты)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l4z1/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l4z1/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l4z1/style.css)
 
-## задание 2
+## задание 2 (судоку)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l4z2/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l4z2/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l4z2/style.css)
 
-## задание 3
+## задание 3 (симулятор эволюции на canvas)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l4z3/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l4z3/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l4z3/style.css)
 
-# Лабораторная работа 5
-## задание 1
+# Лабораторная работа 5 
+## задание 1 (расписание занятий с возможностью удаления и добавления предметов)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l5z1/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l5z1/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l5z1/style.css)
 
-## задание 2
+## задание 2 (опросы)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l5z2/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l5z2/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l5z2/style.css)
 
-## задание 3
+## задание 3 (редактор комиксов)
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l5z3/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l5z3/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l5z3/style.css)
