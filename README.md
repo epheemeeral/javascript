@@ -33,3 +33,19 @@
 - [скрипт](https://github.com/epheemeeral/javascript/blob/l4z3/script.js)
 - [html](https://github.com/epheemeeral/javascript/blob/l4z3/index.html)
 - [css](https://github.com/epheemeeral/javascript/blob/l4z3/style.css)
+
+# Лабораторная работа 5
+## задание 1
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l5z1/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l5z1/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l5z1/style.css)
+
+## задание 2
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l5z2/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l5z2/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l5z2/style.css)
+
+## задание 3
+- [скрипт](https://github.com/epheemeeral/javascript/blob/l5z3/script.js)
+- [html](https://github.com/epheemeeral/javascript/blob/l5z3/index.html)
+- [css](https://github.com/epheemeeral/javascript/blob/l5z3/style.css)
